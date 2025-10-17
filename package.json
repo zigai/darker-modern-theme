@@ -3,6 +3,11 @@
   "displayName": "Darker Modern",
   "description": "",
   "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zigai/vscode-darker-plus.git"
+  },
   "engines": {
     "vscode": "^1.104.0"
   },
