@@ -1,0 +1,24 @@
+{
+	"name": "Darker Modern",
+	"include": "./default-dark-modern.json",
+	"semanticHighlighting": true,
+	"colors": {
+		"editor.background": "#050505",
+		"sideBar.background": "#101010",
+		"menu.background": "#101010",
+		"terminal.background": "#000000",
+		"tab.inactiveBackground": "#151515",
+		"titleBar.inactiveBackground": "#151515",
+		"titleBar.activeBackground": "#151515",
+		"activityBar.background": "#151515",
+		"commandCenter.background": "#000000",
+		"editorGroupHeader.tabsBackground": "#101010",
+		"input.background": "#101010",
+		"input.border": "#007acc",
+		"editorWidget.background": "#101010",
+		"quickInput.background": "#101010",
+		"editor.foreground": "#eeffff",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb"
+	}
+}
