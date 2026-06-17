@@ -1,61 +1,61 @@
 {
-    "name": "darker-modern",
-    "displayName": "Darker Modern",
-    "description": "A darker take on VS Code Modern with near-black workbench surfaces and balanced syntax contrast.",
-    "version": "0.0.1",
-    "publisher": "zigai",
-    "license": "MIT",
-    "icon": "images/icon.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/zigai/vscode-darker-plus.git"
-    },
-    "bugs": {
-        "url": "https://github.com/zigai/vscode-darker-plus/issues"
-    },
-    "homepage": "https://github.com/zigai/vscode-darker-plus#readme",
-    "engines": {
-        "vscode": "^1.84.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "theme",
-        "dark theme",
-        "black theme",
-        "modern",
-        "darker modern",
-        "color theme",
-        "vs code"
-    ],
-    "galleryBanner": {
-        "color": "#050505",
-        "theme": "dark"
-    },
-    "scripts": {
-        "check": "npm run format:check",
-        "format": "prettier --write \"*.md\" \"*.json\"",
-        "format:check": "prettier --check \"*.md\" \"*.json\"",
-        "package": "node -e \"require('fs').mkdirSync('dist', { recursive: true })\" && vsce package --out dist/darker-modern.vsix",
-        "publish": "vsce publish"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Darker Modern",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darker-modern-theme.json"
-            },
-            {
-                "label": "Darker Modern Black",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darker-modern-black-theme.json"
-            }
-        ]
-    },
-    "devDependencies": {
-        "@vscode/vsce": "^3.9.2",
-        "prettier": "^3.8.4"
-    }
+  "name": "darker-modern",
+  "displayName": "Darker Modern",
+  "description": "A darker take on VS Code Modern with near-black workbench surfaces and balanced syntax contrast.",
+  "version": "0.1.0",
+  "publisher": "zigai",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zigai/vscode-darker-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zigai/vscode-darker-plus/issues"
+  },
+  "homepage": "https://github.com/zigai/vscode-darker-plus#readme",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "black theme",
+    "modern",
+    "darker modern",
+    "color theme",
+    "vs code"
+  ],
+  "galleryBanner": {
+    "color": "#050505",
+    "theme": "dark"
+  },
+  "scripts": {
+    "check": "npm run format:check",
+    "format": "prettier --write \"*.md\" \"*.json\"",
+    "format:check": "prettier --check \"*.md\" \"*.json\"",
+    "package": "node -e \"require('fs').mkdirSync('dist', { recursive: true })\" && vsce package --out dist/darker-modern.vsix",
+    "publish": "vsce publish"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Darker Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darker-modern-theme.json"
+      },
+      {
+        "label": "Darker Modern Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darker-modern-black-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.9.2",
+    "prettier": "^3.8.4"
+  }
 }
