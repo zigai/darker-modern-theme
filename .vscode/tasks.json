@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "validate extension",
+      "type": "npm",
+      "script": "validate",
+      "problemMatcher": []
+    },
+    {
+      "label": "package extension",
+      "type": "npm",
+      "script": "package",
+      "problemMatcher": []
+    }
+  ]
+}
