@@ -1,4 +1,15 @@
+.github/**
 .vscode/**
 .vscode-test/**
+dist/**
+node_modules/**
+scripts/**
+*.vsix
+
+.editorconfig
 .gitignore
+.prettierignore
+CONTRIBUTING.md
+package-lock.json
 vsc-extension-quickstart.md
+images/*.svg
