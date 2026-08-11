@@ -9,12 +9,12 @@ npm install
 ```
 
 Launch the extension development host from VS Code with `F5`, then select either
-`Darker Modern` or `Darker Modern Black` from the color theme picker.
+`Lumenweld` or `Lumenweld Black` from the color theme picker.
 
 Theme files live in `themes/`:
 
-- `darker-modern-theme.json`
-- `darker-modern-black-theme.json`
+- `lumenweld-theme.json`
+- `lumenweld-black-theme.json`
 
 ## Checks
 

@@ -1,23 +1,23 @@
-# Darker Modern
+# Lumenweld
 
-A darker take on VS Code Modern with near-black workbench surfaces.
+A near-black VS Code theme with quiet workbench surfaces and balanced syntax contrast.
 
 ## Previews
 
-### Darker Modern
+### Lumenweld
 
-<img src="screenshots/darker-modern-preview.png" alt="Darker Modern preview" width="820">
+<img src="screenshots/lumenweld-preview.png" alt="Lumenweld preview" width="820">
 
-### Darker Modern Black
+### Lumenweld Black
 
-<img src="screenshots/darker-modern-black-preview.png" alt="Darker Modern Black preview" width="820">
+<img src="screenshots/lumenweld-black-preview.png" alt="Lumenweld Black preview" width="820">
 
 ## Themes
 
-| Theme                 | Background | Use case                                                   |
-| --------------------- | ---------- | ---------------------------------------------------------- |
-| `Darker Modern`       | `#050505`  | Near-black UI while preserving visible panel separation.   |
-| `Darker Modern Black` | `#000000`  | Fully black editor surface with darker surrounding chrome. |
+| Theme             | Background | Use case                                                   |
+| ----------------- | ---------- | ---------------------------------------------------------- |
+| `Lumenweld`       | `#050505`  | Near-black UI while preserving visible panel separation.   |
+| `Lumenweld Black` | `#000000`  | Fully black editor surface with deeper surrounding chrome. |
 
 ## Install
 
@@ -26,11 +26,11 @@ Install from a local VSIX:
 ```sh
 npm install
 npm run package
-code --install-extension dist/darker-modern.vsix
+code --install-extension dist/lumenweld.vsix
 ```
 
 Then open the color theme picker with `Preferences: Color Theme` and select
-`Darker Modern` or `Darker Modern Black`.
+`Lumenweld` or `Lumenweld Black`.
 
 ## Development
 
