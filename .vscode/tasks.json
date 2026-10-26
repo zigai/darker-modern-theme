@@ -2,16 +2,16 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "validate extension",
+      "label": "check VS Code package",
       "type": "npm",
-      "script": "validate",
-      "problemMatcher": []
+      "script": "check",
+      "path": "themes/vscode"
     },
     {
-      "label": "package extension",
+      "label": "package VS Code extension",
       "type": "npm",
       "script": "package",
-      "problemMatcher": []
+      "path": "themes/vscode"
     }
   ]
 }

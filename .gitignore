@@ -1,4 +1,6 @@
 .snippet-scout-cache/
+.ruff_cache/
 __pycache__/
-node_modules
-dist
+node_modules/
+dist/
+*.vsix

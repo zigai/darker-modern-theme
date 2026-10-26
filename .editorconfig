@@ -8,5 +8,11 @@ indent_style = space
 indent_size = 4
 trim_trailing_whitespace = true
 
-[themes/*.json]
+[*.{json,jsonc}]
+indent_size = 2
+
+[themes/vscode/themes/*.json]
+indent_size = 4
+
+[*.{lua,kdl,conf,theme}]
 indent_size = 4

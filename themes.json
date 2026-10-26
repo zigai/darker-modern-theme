@@ -1,0 +1,97 @@
+{
+  "targets": [
+    {
+      "sources": [
+        "palette/darker-modern.json"
+      ],
+      "format": "vscode",
+      "output": "vscode/themes/darker-modern-theme.json"
+    },
+    {
+      "sources": [
+        "palette/darker-modern.json"
+      ],
+      "format": "ghostty",
+      "output": "ghostty/darker-modern"
+    },
+    {
+      "sources": [
+        "palette/darker-modern.json"
+      ],
+      "format": "fish",
+      "output": "fish/darker-modern.theme"
+    },
+    {
+      "sources": [
+        "palette/darker-modern.json"
+      ],
+      "format": "tmux",
+      "output": "tmux/darker-modern.conf"
+    },
+    {
+      "sources": [
+        "palette/darker-modern.json"
+      ],
+      "format": "nvim",
+      "output": "nvim/darker-modern.lua"
+    },
+    {
+      "sources": [
+        "palette/darker-modern.json"
+      ],
+      "format": "zellij",
+      "output": "zellij/darker-modern.kdl"
+    },
+    {
+      "sources": [
+        "palette/darker-modern-black.json"
+      ],
+      "format": "vscode",
+      "output": "vscode/themes/darker-modern-black-theme.json"
+    },
+    {
+      "sources": [
+        "palette/darker-modern-black.json"
+      ],
+      "format": "ghostty",
+      "output": "ghostty/darker-modern-black"
+    },
+    {
+      "sources": [
+        "palette/darker-modern-black.json"
+      ],
+      "format": "fish",
+      "output": "fish/darker-modern-black.theme"
+    },
+    {
+      "sources": [
+        "palette/darker-modern-black.json"
+      ],
+      "format": "tmux",
+      "output": "tmux/darker-modern-black.conf"
+    },
+    {
+      "sources": [
+        "palette/darker-modern-black.json"
+      ],
+      "format": "nvim",
+      "output": "nvim/darker-modern-black.lua"
+    },
+    {
+      "sources": [
+        "palette/darker-modern-black.json"
+      ],
+      "format": "zellij",
+      "output": "zellij/darker-modern-black.kdl"
+    },
+    {
+      "sources": [
+        "palette/darker-modern.json",
+        "palette/darker-modern-black.json"
+      ],
+      "format": "zed",
+      "output": "zed/darker-modern.json",
+      "name": "Darker Modern"
+    }
+  ]
+}
