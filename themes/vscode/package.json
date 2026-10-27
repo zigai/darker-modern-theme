@@ -37,8 +37,8 @@
     "check": "npm run format:check",
     "format": "prettier --write \"README.md\" \"package.json\" \"themes/*.json\"",
     "format:check": "prettier --check \"README.md\" \"package.json\" \"themes/*.json\"",
-    "package": "node -e \"require('fs').mkdirSync('dist', { recursive: true })\" && vsce package --out dist/darker-modern.vsix",
-    "publish": "vsce publish"
+    "package": "node -e \"require('fs').mkdirSync('dist', { recursive: true })\" && vsce package --out dist/darker-modern.vsix --baseContentUrl https://github.com/zigai/darker-modern-theme/blob/master/themes/vscode --baseImagesUrl https://raw.githubusercontent.com/zigai/darker-modern-theme/master/themes/vscode",
+    "publish": "vsce publish --baseContentUrl https://github.com/zigai/darker-modern-theme/blob/master/themes/vscode --baseImagesUrl https://raw.githubusercontent.com/zigai/darker-modern-theme/master/themes/vscode"
   },
   "contributes": {
     "themes": [

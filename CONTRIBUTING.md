@@ -42,4 +42,4 @@ The package is written to `themes/vscode/dist/darker-modern.vsix`.
 
 ## Native ports
 
-Keep every native file directly installable according to the instructions in the root README. Zed's family file and both Zellij theme definitions must continue to expose both variant names exactly: `Darker Modern` / `Darker Modern Black` for display-name formats and `darker-modern` / `darker-modern-black` for identifier formats.
+Keep every native file directly installable according to its `themes/<tool>/README.md`. Zed's family file and both Zellij theme definitions must continue to expose both variant names exactly: `Darker Modern` / `Darker Modern Black` for display-name formats and `darker-modern` / `darker-modern-black` for identifier formats.
