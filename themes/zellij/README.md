@@ -1,6 +1,6 @@
 # Darker Modern for Zellij
 
-Tabs, pane frames, selections, and interface colors with near-black and black variants.
+A darker evolution of VS Code’s Dark Modern
 
 | Darker Modern                                             | Darker Modern Black                                                   |
 | --------------------------------------------------------- | --------------------------------------------------------------------- |

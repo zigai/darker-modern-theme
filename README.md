@@ -1,6 +1,6 @@
 # Darker Modern
 
-Near-black surfaces, balanced syntax colors, and a fully black variant.
+A darker evolution of VS Code’s Dark Modern
 
 ## Previews
 

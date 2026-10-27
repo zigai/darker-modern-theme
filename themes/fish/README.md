@@ -1,6 +1,6 @@
 # Darker Modern for Fish
 
-Shell highlighting and completion colors with near-black and black variants.
+A darker evolution of VS Code’s Dark Modern
 
 | Darker Modern                                                        | Darker Modern Black                                                              |
 | -------------------------------------------------------------------- | -------------------------------------------------------------------------------- |

@@ -1,6 +1,6 @@
 # Darker Modern for VS Code
 
-Near-black workbench surfaces and balanced syntax colors. Darker Modern uses `#050505`; Darker Modern Black uses `#000000`.
+A darker evolution of VS Code’s Dark Modern
 
 | Darker Modern                                              | Darker Modern Black                                                    |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------- |

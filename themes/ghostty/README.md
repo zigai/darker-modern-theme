@@ -1,6 +1,6 @@
 # Darker Modern for Ghostty
 
-A near-black terminal palette with soft foreground text, a blue selection, and a fully black variant.
+A darker evolution of VS Code’s Dark Modern
 
 | Darker Modern                                              | Darker Modern Black                                                    |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------- |

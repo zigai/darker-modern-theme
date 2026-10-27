@@ -1,7 +1,7 @@
 {
   "name": "darker-modern",
   "displayName": "Darker Modern",
-  "description": "The VS Code package for the Darker Modern and Darker Modern Black dark themes.",
+  "description": "A darker evolution of VS Code’s Dark Modern",
   "version": "0.1.0",
   "publisher": "zigai",
   "license": "MIT",

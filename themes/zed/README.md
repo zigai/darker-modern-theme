@@ -1,6 +1,6 @@
 # Darker Modern for Zed
 
-Near-black editor and interface colors, with both variants in one theme family.
+A darker evolution of VS Code’s Dark Modern
 
 | Darker Modern                                          | Darker Modern Black                                                |
 | ------------------------------------------------------ | ------------------------------------------------------------------ |

@@ -1,6 +1,6 @@
 # Darker Modern for Neovim
 
-Near-black editor backgrounds and balanced syntax colors, with a fully black variant.
+A darker evolution of VS Code’s Dark Modern
 
 | Darker Modern                                             | Darker Modern Black                                                   |
 | --------------------------------------------------------- | --------------------------------------------------------------------- |

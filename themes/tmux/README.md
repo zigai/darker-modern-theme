@@ -1,6 +1,6 @@
 # Darker Modern for tmux
 
-Status line, pane border, message, and selection colors with near-black and black variants.
+A darker evolution of VS Code’s Dark Modern
 
 | Darker Modern                                           | Darker Modern Black                                                 |
 | ------------------------------------------------------- | ------------------------------------------------------------------- |
