@@ -2,11 +2,6 @@
 
 Near-black surfaces, balanced syntax colors, and a fully black variant.
 
-| Variant             | Background |
-| ------------------- | ---------- |
-| Darker Modern       | `#050505`  |
-| Darker Modern Black | `#000000`  |
-
 ## Previews
 
 ### Darker Modern
