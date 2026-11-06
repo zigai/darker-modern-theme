@@ -29,7 +29,7 @@ Press `F5` in VS Code to launch an Extension Development Host using `themes/vsco
 Run the package check before opening a pull request:
 
 ```sh
-npm --prefix themes/vscode run check
+npm --prefix themes/vscode run format:check
 ```
 
 Create a local VSIX with:
