@@ -221,45 +221,35 @@
         "order": 0
       },
       {
-        "scopes": [
-          "emphasis"
-        ],
+        "scopes": ["emphasis"],
         "style": {
           "font_style": "italic"
         },
         "order": 1
       },
       {
-        "scopes": [
-          "strong"
-        ],
+        "scopes": ["strong"],
         "style": {
           "font_style": "bold"
         },
         "order": 2
       },
       {
-        "scopes": [
-          "header"
-        ],
+        "scopes": ["header"],
         "style": {
           "foreground": "$color.000080"
         },
         "order": 3
       },
       {
-        "scopes": [
-          "comment"
-        ],
+        "scopes": ["comment"],
         "style": {
           "foreground": "$syntax.comment"
         },
         "order": 4
       },
       {
-        "scopes": [
-          "constant.language"
-        ],
+        "scopes": ["constant.language"],
         "style": {
           "foreground": "$syntax.blue"
         },
@@ -278,37 +268,28 @@
         "order": 6
       },
       {
-        "scopes": [
-          "constant.regexp"
-        ],
+        "scopes": ["constant.regexp"],
         "style": {
           "foreground": "$color.646695"
         },
         "order": 7
       },
       {
-        "scopes": [
-          "entity.name.tag"
-        ],
+        "scopes": ["entity.name.tag"],
         "style": {
           "foreground": "$syntax.blue"
         },
         "order": 8
       },
       {
-        "scopes": [
-          "entity.name.tag.css",
-          "entity.name.tag.less"
-        ],
+        "scopes": ["entity.name.tag.css", "entity.name.tag.less"],
         "style": {
           "foreground": "$syntax.escape"
         },
         "order": 9
       },
       {
-        "scopes": [
-          "entity.other.attribute-name"
-        ],
+        "scopes": ["entity.other.attribute-name"],
         "style": {
           "foreground": "$syntax.variable"
         },
@@ -332,27 +313,21 @@
         "order": 11
       },
       {
-        "scopes": [
-          "invalid"
-        ],
+        "scopes": ["invalid"],
         "style": {
           "foreground": "$color.f44747"
         },
         "order": 12
       },
       {
-        "scopes": [
-          "markup.underline"
-        ],
+        "scopes": ["markup.underline"],
         "style": {
           "font_style": "underline"
         },
         "order": 13
       },
       {
-        "scopes": [
-          "markup.bold"
-        ],
+        "scopes": ["markup.bold"],
         "style": {
           "foreground": "$syntax.blue",
           "font_style": "bold"
@@ -360,9 +335,7 @@
         "order": 14
       },
       {
-        "scopes": [
-          "markup.heading"
-        ],
+        "scopes": ["markup.heading"],
         "style": {
           "foreground": "$syntax.blue",
           "font_style": "bold"
@@ -370,72 +343,56 @@
         "order": 15
       },
       {
-        "scopes": [
-          "markup.italic"
-        ],
+        "scopes": ["markup.italic"],
         "style": {
           "font_style": "italic"
         },
         "order": 16
       },
       {
-        "scopes": [
-          "markup.strikethrough"
-        ],
+        "scopes": ["markup.strikethrough"],
         "style": {
           "font_style": "normal"
         },
         "order": 17
       },
       {
-        "scopes": [
-          "markup.inserted"
-        ],
+        "scopes": ["markup.inserted"],
         "style": {
           "foreground": "$syntax.number"
         },
         "order": 18
       },
       {
-        "scopes": [
-          "markup.deleted"
-        ],
+        "scopes": ["markup.deleted"],
         "style": {
           "foreground": "$syntax.string"
         },
         "order": 19
       },
       {
-        "scopes": [
-          "markup.changed"
-        ],
+        "scopes": ["markup.changed"],
         "style": {
           "foreground": "$syntax.blue"
         },
         "order": 20
       },
       {
-        "scopes": [
-          "punctuation.definition.quote.begin.markdown"
-        ],
+        "scopes": ["punctuation.definition.quote.begin.markdown"],
         "style": {
           "foreground": "$syntax.comment"
         },
         "order": 21
       },
       {
-        "scopes": [
-          "punctuation.definition.list.begin.markdown"
-        ],
+        "scopes": ["punctuation.definition.list.begin.markdown"],
         "style": {
           "foreground": "$color.6796e6"
         },
         "order": 22
       },
       {
-        "scopes": [
-          "markup.inline.raw"
-        ],
+        "scopes": ["markup.inline.raw"],
         "style": {
           "foreground": "$syntax.string"
         },
@@ -443,120 +400,91 @@
       },
       {
         "name": "brackets of XML/HTML tags",
-        "scopes": [
-          "punctuation.definition.tag"
-        ],
+        "scopes": ["punctuation.definition.tag"],
         "style": {
           "foreground": "$color.808080"
         },
         "order": 24
       },
       {
-        "scopes": [
-          "meta.preprocessor",
-          "entity.name.function.preprocessor"
-        ],
+        "scopes": ["meta.preprocessor", "entity.name.function.preprocessor"],
         "style": {
           "foreground": "$syntax.blue"
         },
         "order": 25
       },
       {
-        "scopes": [
-          "meta.preprocessor.string"
-        ],
+        "scopes": ["meta.preprocessor.string"],
         "style": {
           "foreground": "$syntax.string"
         },
         "order": 26
       },
       {
-        "scopes": [
-          "meta.preprocessor.numeric"
-        ],
+        "scopes": ["meta.preprocessor.numeric"],
         "style": {
           "foreground": "$syntax.number"
         },
         "order": 27
       },
       {
-        "scopes": [
-          "meta.structure.dictionary.key.python"
-        ],
+        "scopes": ["meta.structure.dictionary.key.python"],
         "style": {
           "foreground": "$syntax.variable"
         },
         "order": 28
       },
       {
-        "scopes": [
-          "meta.diff.header"
-        ],
+        "scopes": ["meta.diff.header"],
         "style": {
           "foreground": "$syntax.blue"
         },
         "order": 29
       },
       {
-        "scopes": [
-          "storage"
-        ],
+        "scopes": ["storage"],
         "style": {
           "foreground": "$syntax.blue"
         },
         "order": 30
       },
       {
-        "scopes": [
-          "storage.type"
-        ],
+        "scopes": ["storage.type"],
         "style": {
           "foreground": "$syntax.blue"
         },
         "order": 31
       },
       {
-        "scopes": [
-          "storage.modifier",
-          "keyword.operator.noexcept"
-        ],
+        "scopes": ["storage.modifier", "keyword.operator.noexcept"],
         "style": {
           "foreground": "$syntax.blue"
         },
         "order": 32
       },
       {
-        "scopes": [
-          "string",
-          "meta.embedded.assembly"
-        ],
+        "scopes": ["string", "meta.embedded.assembly"],
         "style": {
           "foreground": "$syntax.string"
         },
         "order": 33
       },
       {
-        "scopes": [
-          "string.tag"
-        ],
+        "scopes": ["string.tag"],
         "style": {
           "foreground": "$syntax.string"
         },
         "order": 34
       },
       {
-        "scopes": [
-          "string.value"
-        ],
+        "scopes": ["string.value"],
         "style": {
           "foreground": "$syntax.string"
         },
         "order": 35
       },
       {
-        "scopes": [
-          "string.regexp"
-        ],
+        "scopes": ["string.regexp"],
         "style": {
           "foreground": "$color.d16969"
         },
@@ -576,9 +504,7 @@
       },
       {
         "name": "Reset JavaScript string interpolation expression",
-        "scopes": [
-          "meta.template.expression"
-        ],
+        "scopes": ["meta.template.expression"],
         "style": {
           "foreground": "$syntax.operator"
         },
@@ -597,27 +523,21 @@
         "order": 39
       },
       {
-        "scopes": [
-          "keyword"
-        ],
+        "scopes": ["keyword"],
         "style": {
           "foreground": "$syntax.blue"
         },
         "order": 40
       },
       {
-        "scopes": [
-          "keyword.control"
-        ],
+        "scopes": ["keyword.control"],
         "style": {
           "foreground": "$syntax.blue"
         },
         "order": 41
       },
       {
-        "scopes": [
-          "keyword.operator"
-        ],
+        "scopes": ["keyword.operator"],
         "style": {
           "foreground": "$syntax.operator"
         },
@@ -642,9 +562,7 @@
         "order": 43
       },
       {
-        "scopes": [
-          "keyword.other.unit"
-        ],
+        "scopes": ["keyword.other.unit"],
         "style": {
           "foreground": "$syntax.number"
         },
@@ -661,18 +579,14 @@
         "order": 45
       },
       {
-        "scopes": [
-          "support.function.git-rebase"
-        ],
+        "scopes": ["support.function.git-rebase"],
         "style": {
           "foreground": "$syntax.variable"
         },
         "order": 46
       },
       {
-        "scopes": [
-          "constant.sha.git-rebase"
-        ],
+        "scopes": ["constant.sha.git-rebase"],
         "style": {
           "foreground": "$syntax.number"
         },
@@ -692,9 +606,7 @@
       },
       {
         "name": "this.self",
-        "scopes": [
-          "variable.language"
-        ],
+        "scopes": ["variable.language"],
         "style": {
           "foreground": "$syntax.blue"
         },
@@ -803,10 +715,7 @@
       },
       {
         "name": "Constants and enums",
-        "scopes": [
-          "variable.other.constant",
-          "variable.other.enummember"
-        ],
+        "scopes": ["variable.other.constant", "variable.other.enummember"],
         "style": {
           "foreground": "$syntax.constant"
         },
@@ -814,9 +723,7 @@
       },
       {
         "name": "Object keys, TS grammar specific",
-        "scopes": [
-          "meta.object-literal.key"
-        ],
+        "scopes": ["meta.object-literal.key"],
         "style": {
           "foreground": "$syntax.variable"
         },
@@ -867,47 +774,35 @@
         "order": 59
       },
       {
-        "scopes": [
-          "keyword.operator.or.regexp",
-          "keyword.control.anchor.regexp"
-        ],
+        "scopes": ["keyword.operator.or.regexp", "keyword.control.anchor.regexp"],
         "style": {
           "foreground": "$syntax.function"
         },
         "order": 60
       },
       {
-        "scopes": [
-          "keyword.operator.quantifier.regexp"
-        ],
+        "scopes": ["keyword.operator.quantifier.regexp"],
         "style": {
           "foreground": "$syntax.escape"
         },
         "order": 61
       },
       {
-        "scopes": [
-          "constant.character",
-          "constant.other.option"
-        ],
+        "scopes": ["constant.character", "constant.other.option"],
         "style": {
           "foreground": "$syntax.blue"
         },
         "order": 62
       },
       {
-        "scopes": [
-          "constant.character.escape"
-        ],
+        "scopes": ["constant.character.escape"],
         "style": {
           "foreground": "$syntax.escape"
         },
         "order": 63
       },
       {
-        "scopes": [
-          "entity.name.label"
-        ],
+        "scopes": ["entity.name.label"],
         "style": {
           "foreground": "$color.c8c8c8"
         },
@@ -1184,10 +1079,7 @@
           }
         },
         {
-          "scope": [
-            "entity.name.tag.css",
-            "entity.name.tag.less"
-          ],
+          "scope": ["entity.name.tag.css", "entity.name.tag.less"],
           "settings": {
             "foreground": "$syntax.escape"
           }
@@ -1296,10 +1188,7 @@
           }
         },
         {
-          "scope": [
-            "meta.preprocessor",
-            "entity.name.function.preprocessor"
-          ],
+          "scope": ["meta.preprocessor", "entity.name.function.preprocessor"],
           "settings": {
             "foreground": "$syntax.blue"
           }
@@ -1341,19 +1230,13 @@
           }
         },
         {
-          "scope": [
-            "storage.modifier",
-            "keyword.operator.noexcept"
-          ],
+          "scope": ["storage.modifier", "keyword.operator.noexcept"],
           "settings": {
             "foreground": "$syntax.blue"
           }
         },
         {
-          "scope": [
-            "string",
-            "meta.embedded.assembly"
-          ],
+          "scope": ["string", "meta.embedded.assembly"],
           "settings": {
             "foreground": "$syntax.string"
           }
@@ -1389,9 +1272,7 @@
         },
         {
           "name": "Reset JavaScript string interpolation expression",
-          "scope": [
-            "meta.template.expression"
-          ],
+          "scope": ["meta.template.expression"],
           "settings": {
             "foreground": "$syntax.operator"
           }
@@ -1585,19 +1466,14 @@
         },
         {
           "name": "Constants and enums",
-          "scope": [
-            "variable.other.constant",
-            "variable.other.enummember"
-          ],
+          "scope": ["variable.other.constant", "variable.other.enummember"],
           "settings": {
             "foreground": "$syntax.constant"
           }
         },
         {
           "name": "Object keys, TS grammar specific",
-          "scope": [
-            "meta.object-literal.key"
-          ],
+          "scope": ["meta.object-literal.key"],
           "settings": {
             "foreground": "$syntax.variable"
           }
@@ -1644,10 +1520,7 @@
           }
         },
         {
-          "scope": [
-            "keyword.operator.or.regexp",
-            "keyword.control.anchor.regexp"
-          ],
+          "scope": ["keyword.operator.or.regexp", "keyword.control.anchor.regexp"],
           "settings": {
             "foreground": "$syntax.function"
           }
@@ -1659,10 +1532,7 @@
           }
         },
         {
-          "scope": [
-            "constant.character",
-            "constant.other.option"
-          ],
+          "scope": ["constant.character", "constant.other.option"],
           "settings": {
             "foreground": "$syntax.blue"
           }
