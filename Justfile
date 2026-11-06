@@ -26,14 +26,15 @@ generated-check:
 
 # Check the same files and tools without writing
 formatcheck:
-    @oxfmt --check '!**/*.md' '!**/package.json' '!**/package-lock.json' '!**/*-lock.json' '!themes/vscode/themes/darker-modern-theme.json' '!themes/vscode/themes/darker-modern-black-theme.json' '!themes/zed/darker-modern.json'
+    @git ls-files -co --exclude-standard -z | while IFS= read -r -d '' file; do if [[ -f $file ]]; then printf '%s\0' "$file"; fi; done | xargs -0 -r oxfmt --check --no-error-on-unmatched-pattern '!**/*.md' '!**/package.json' '!**/package-lock.json' '!**/*-lock.json' '!themes/vscode/themes/darker-modern-theme.json' '!themes/vscode/themes/darker-modern-black-theme.json' '!themes/zed/darker-modern.json'
     @git ls-files -co --exclude-standard -z | while IFS= read -r -d '' file; do if [[ -f $file ]]; then printf '%s\0' "$file"; fi; done | xargs -0 -r shfmt -f | xargs -r -d '\n' shfmt -d
     @git ls-files -co --exclude-standard -- Justfile justfile "*.just" | while IFS= read -r file; do just --justfile "$file" --fmt --check; done
     @just markdown check
+    @git ls-files -co --exclude-standard -z | while IFS= read -r -d '' file; do if [[ -f $file ]]; then printf '%s\0' "$file"; fi; done | xargs -0 -r editorconfig-checker -disable-indent-size -disable-indentation -disable-max-line-length -disable-charset
 
 # Format every supported first-party file type
 format:
-    @oxfmt '!**/*.md' '!**/package.json' '!**/package-lock.json' '!**/*-lock.json' '!themes/vscode/themes/darker-modern-theme.json' '!themes/vscode/themes/darker-modern-black-theme.json' '!themes/zed/darker-modern.json'
+    @git ls-files -co --exclude-standard -z | while IFS= read -r -d '' file; do if [[ -f $file ]]; then printf '%s\0' "$file"; fi; done | xargs -0 -r oxfmt --no-error-on-unmatched-pattern '!**/*.md' '!**/package.json' '!**/package-lock.json' '!**/*-lock.json' '!themes/vscode/themes/darker-modern-theme.json' '!themes/vscode/themes/darker-modern-black-theme.json' '!themes/zed/darker-modern.json'
     @git ls-files -co --exclude-standard -z | while IFS= read -r -d '' file; do if [[ -f $file ]]; then printf '%s\0' "$file"; fi; done | xargs -0 -r shfmt -f | xargs -r -d '\n' shfmt -w
     @git ls-files -co --exclude-standard -- Justfile justfile "*.just" | while IFS= read -r file; do just --justfile "$file" --fmt; done
     @just markdown fmt
